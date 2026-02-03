@@ -1,0 +1,23 @@
+[project]
+name = "chilesharp"
+version = "0.1.0"
+description = "Automated value betting system for Chilean horse racing"
+authors = [
+    {name = "Prodelaya", email = "proyectos.delaya@gmail.com"},
+]
+dependencies = [
+    "playwright",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "python-dotenv",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
