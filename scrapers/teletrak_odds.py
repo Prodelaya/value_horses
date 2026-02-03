@@ -6,6 +6,7 @@ TODO: Inicializar browser persistente (Playwright)
 TODO: Implementar loop de polling para carreras activas
 TODO: Navegar a /wager?raceCardId=X&raceId=Y
 TODO: Verificar que pestaña "Apuesta" esté activa
+TODO: Extraer total pool amount (clase .pools-total__currency) para filtrar por liquidez
 TODO: Extraer tabla de caballos (No., Nombre, Prob)
 TODO: Parsear cuota Prob (convertir coma a punto, quitar 'FAV')
 TODO: Guardar snapshot en tabla odds_snapshots

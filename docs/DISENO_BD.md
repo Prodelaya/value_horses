@@ -247,6 +247,7 @@ Carrera individual dentro de un meeting.
 | `off_time_utc` | TIMESTAMP | NOT NULL | Hora de salida en UTC |
 | `distance` | VARCHAR(20) | NULL | "1200m", "1600m" |
 | `surface` | VARCHAR(20) | NULL | "Arena", "Césped" |
+| `total_pool` | DECIMAL(12,2) | NULL | Monto total apostado (indicador de liquidez) |
 | `status` | ENUM | DEFAULT 'SCHEDULED' | SCHEDULED, ACTIVE, FINISHED, CANCELLED |
 | `created_at` | TIMESTAMP | DEFAULT NOW() | Fecha creación |
 | `updated_at` | TIMESTAMP | NULL | Última actualización |

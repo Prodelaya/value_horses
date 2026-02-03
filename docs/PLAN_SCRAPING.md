@@ -359,7 +359,8 @@ h4.event-row-event-name .truncate-text
 h3.race-number-cell
 
 /* Pool total */
-h3.pool-amount-cell .currency
+h3.pool-amount-cell .currency,
+.currency.pools-total__currency /* Selector alternativo en detalle */
 
 /* Hora */
 h3.mtp-cell
